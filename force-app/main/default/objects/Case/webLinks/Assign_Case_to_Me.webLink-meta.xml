@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Assign_Case_to_Me</fullName>
+    <availability>online</availability>
+    <description>Make the current user the Case owner.</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Assign Case to Me</masterLabel>
+    <openType>noSidebar</openType>
+    <protected>false</protected>
+    <url>/flow/Assign_Case_to_Me?recordId={!Case.Id}&amp;retURL=/lightning/r/Case/{!Case.Id}/view</url>
+</WebLink>
