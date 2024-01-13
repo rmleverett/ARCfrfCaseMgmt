@@ -2,11 +2,25 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "Case Management",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
+    },
+    {
+      "path": "force-app",
+      "package": "CaseMgmtPackage",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT",
+      "default": false,
+      "versionDescription": ""
     }
   ],
   "name": "ARCfrfCaseMgmt",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "58.0"
+  "sourceApiVersion": "59.0",
+  "packageAliases": {
+    "CaseMgmtPackage": "0Ho3m000000XZF7CAO"
+  }
 }
