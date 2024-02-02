@@ -66,6 +66,7 @@ private class ApplyCaseAssignmentRulesTest {
         List<Id> caseIds = new List<Id>(new Map<Id, Case>(cases).keySet());
 
         ApplyCaseAssignmentRules.CaseAssign(caseIds);
+        
         System.assertNotEquals(usr.Id, caseIds[0], 'Owner has changed');
     }
 }
