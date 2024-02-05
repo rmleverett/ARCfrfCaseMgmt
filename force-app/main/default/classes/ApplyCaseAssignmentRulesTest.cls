@@ -20,8 +20,6 @@ private class ApplyCaseAssignmentRulesTest {
                            );
         insert usr;
 
-        // Get a Case record type
-        RecordType rec = [SELECT Id FROM RecordType WHERE SObjectType = 'Case' LIMIT 1];
         // Create Cases and assign user as case owner
         List<Case> cases = new List<Case>();
         Case c1 = new Case();
@@ -29,7 +27,6 @@ private class ApplyCaseAssignmentRulesTest {
         c1.Subject = 'Test Case Assignment Rules 1';
         c1.Status = 'New';
         c1.Priority = 'High';
-        c1.RecordTypeID = rec.Id;
         cases.add(c1);
 
        /* Case c2 = new Case();
@@ -37,7 +34,6 @@ private class ApplyCaseAssignmentRulesTest {
         c2.Subject = 'Test Case Assignment Rules 2';
         c2.Status = 'New';
         c2.Priority = 'High';
-        c2.RecordTypeID = rec.Id;
         cases.add(c2); */
 
         insert cases;
