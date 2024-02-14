@@ -2,10 +2,11 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true,
       "package": "Case Management",
       "versionName": "ver 0.1",
-      "versionNumber": "0.1.0.NEXT"
+      "versionNumber": "0.1.0.NEXT",
+      "default": true,
+      "versionDescription": ""
     },
     {
       "path": "force-app",
@@ -21,6 +22,9 @@
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "59.0",
   "packageAliases": {
-    "CaseMgmtPackage": "0Ho3m000000XZF7CAO"
+    "CaseMgmtPackage": "0Ho3m000000XZF7CAO",
+    "Case Management": "0Ho3m000000XZFCCA4",
+    "Case Management@0.1.0-1": "04t3m000000H0r5AAC",
+    "Case Management@0.1.0-2": "04t3m000000H0rAAAS"
   }
 }
